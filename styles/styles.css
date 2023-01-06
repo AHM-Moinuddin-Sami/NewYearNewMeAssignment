@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* banner styles */
+
+.banner {
+    display: flex;
+    background-image: url('../images/banner/banner1.png');
+    height: 808px;
+    justify-content: right;
+}
+
+.banner-text {
+    margin-left: 850px;
+    margin-top: 210px;
+    margin-right: 230px;
+    text-align: right;
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+}
+
+.banner-description {
+    margin-top: 24px;
+    color: #444343;
+}
+
+.btn {
+    margin-top: 32px;
+    background: #F15B22;
+    color: white;
+    border: 0;
+    padding: 21px;
+    border-radius: 5px;
+}
+
+/* failure styles */
+
+.failures {
+    display: flex;
+    align-items: center;
+    margin-top: 131px;
+    margin-left: 206px;
+}
+
+.failure-info {
+    margin-left: 87px;
+    margin-right: 322px;
+}
+
+.failure-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.failure-subtitle {
+    color: #444343;
+    margin-bottom: 16px;
+}
+
+.failure-list {
+    color: #444343;
+    list-style: none;
+    align-items: left;
+    padding-left: 0;
+}
+
+.failure-list li{
+    margin-bottom: 8px;
+}
